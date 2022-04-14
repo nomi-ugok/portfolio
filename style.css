@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #614414;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.page-header {
+    position: fixed;
+    top: 0;
+    background-color: #e6f0f0;
+    width: 100%;
+    height: 90px;
+}
+.main-nav {
+    display: flex;  /*並列にする*/
+    font-size: 3vmin;
+    text-transform: uppercase;
+    list-style: none;
+}
+.main-nav li{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.main-nav a{
+    color: #614414;
+}
+.main-nav a:hover {
+    color: ivory;
+}
+.page-title {
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(../img/haikei.jpg);
+    margin-top: 90px;
+    height: 50em;
+    opacity: 0.6;
+}
+.page-title h2{
+    color: ivory;
+    font-size: 3vmax;
+    text-align: center;
+    padding-top: 10em;
+}
+#Profile {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px; 
+}
+#Work {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+}
+.myicon {
+    text-align: center;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+.detail {
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+}
+.work {
+    display: flex;
+    margin-bottom: 160px;
+}
+.music {
+    margin-left: 80px;
+}
+.memoriesblog {
+    margin-left: 80px;
+}
